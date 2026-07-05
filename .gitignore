@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model files (track separately or via git-lfs if needed)
+models/*.pkl
+models/*.h5
+
+# Editor configs
+.vscode/
+.idea/
